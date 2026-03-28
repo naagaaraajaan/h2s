@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Aushadhi Bridge",
+            "request": "launch",
+            "type": "dart",
+            "program": "aushadhi_bridge/lib/main.dart",
+            "cwd": "${workspaceFolder}/aushadhi_bridge",
+            "args": [
+                "--dart-define=GEMINI_API_KEY=AIzaSyDPBnZVPxd7AgTy0pKNza9XjT6jhL_rqy8"
+            ]
+        }
+    ]
+}
